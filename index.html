@@ -1,10 +1,15 @@
 <html>
   <head>
     <title>Social logins</title>
+
+    <meta name="google-signin-client_id" content="703612666184-9g5isa4vqohapfpk7ceimtj7b506t6qr.apps.googleusercontent.com">
   </head>
 
   <body>
-    <a href="http://localhost:3000/auth/facebook">Login With Facebook</a>;
-    <a href="http://localhost:3000/auth/google">Login With Google</a>;
+    <a href="http://localhost:3000/auth/facebook">Login With Facebook</a>
+    
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
   </body>
 </html> 
